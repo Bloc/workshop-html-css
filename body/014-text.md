@@ -1,0 +1,73 @@
+### Objectives
+
+After this exercise, you should be able to:
+
+- Explain the difference between pixels and ems
+- Use font and text attributes to style and space text
+- Use the `text-shadow` CSS attribute to create drop shadows
+
+### Example
+
+You've already seen a few ways to style text:
+
+- You can change its `color`
+- You can center it by changing its `text-align` property
+- You can change its `font-family`, `font-size`, `font-weight`, and `font-variant`
+- You can change the spacing between letters with `letter-spacing`
+
+There are many more ways to style text — way too many to include in this exercise. Here are a few highlights.
+
+----
+
+We've specified sizes in *pixels* (px), which count the number of dots on a computer screen. Many designers prefer to specify text sizes in *ems*:
+
+```css
+p {
+  font-size: 0.75em;
+}
+```
+
+1 em is the size of normal paragraph text. In the above example, the text would be rendered at 75% of the normal size.
+
+----
+
+Text indents allow you to indent the beginning of a text element (like the tab at the beginning of a paragraph):
+
+```css
+p {
+  text-indent: 4em;
+}
+```
+
+----
+
+The line spacing affects the spacing between lines:
+
+```css
+p {
+  line-height: 2em;
+}
+```
+
+----
+
+You can add shadows (with blurs) to text using `text-shadow`:
+
+```css
+p {
+  text-shadow: 2px 2px 8px #C0C0F3;
+}
+```
+
+The first two numbers represent the horizontal and vertical size of the shadow. The second number represents the blur radius. The fourth value is the color.
+
+## Exercise
+
+- Open `index.html`.
+- Add this text between `<p>` tags. Place it between the header and the table. Include this text:
+
+  > Voltaire, a French philosopher and historian who died shortly after the American revolutionary war, left us with this warning about translations: "Woe to the makers of literal translations, who by rendering every word weaken the meaning! It is indeed by so doing that we can say the letter kills and the spirit gives life." In spite of his warnings, we bring you four translations of the phrase "Hello World".
+  
+- Open `main.css`.
+- Apply the `font-size`, `text-indent`, and `line-height` attributes to the new text.
+- Add a text shadow to the header text.
