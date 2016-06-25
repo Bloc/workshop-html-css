@@ -1,4 +1,18 @@
-Let's spruce things up a bit by adding an image. Images are added using the `img` tag. It's different from other tags we've used in a few ways:
+### Objectives
+
+After this exercise, you should be able to:
+
+- Understand tag attributes
+- Understand tags that don't close
+- Explain the difference between absolute and relative URLs
+- Describe the `<img>` tag
+- Discuss the `alt` and `src` attributes
+- Explain why the `alt` attribute is important
+- Implement a requirement to add an image to a document
+
+### Example
+
+Let's spruce things up a bit by adding an image. Images are added using the `<img>` tag. It's different from other tags we've used in a few ways:
 
 1. It requires that we specify two *attributes*
 2. It doesn't need to be closed (we don't use `</img>`)
@@ -6,10 +20,10 @@ Let's spruce things up a bit by adding an image. Images are added using the `img
 An image tag might look like this:
 
 ```html
-<img src="img/flower.png" alt="A flower pot with three petunias">
+<img src="images/flower.png" alt="A flower pot with three petunias">
 ```
 
-`src` specifies the URL of the image to display. The above example is a *relative* URL, but you can also use an absolute URL like `http://example.com/img/flower.png`.
+`src` specifies the URL of the image to display. The above example is a *relative* URL, but you can also use an absolute URL like `http://example.com/images/flower.png`.
 
 > You can [read more about relative vs. absolute URLs on webreference](http://www.webreference.com/html/tutorial2/3.html).
 
@@ -22,6 +36,6 @@ An image tag might look like this:
 
 ## Assignment
 
-We've provided a logo for your page at `/img/hello-world.png`.
+We've provided a logo for your page at `/images/hello-world.png`.
 
 Add the image above the heading, within the `<body>` tags.

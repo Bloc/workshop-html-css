@@ -1,3 +1,13 @@
+### Objectives
+
+After this exercise, you should be able to:
+
+- Define an HTML table
+- Understand and implement the `<table>`, `<th>`, `<tr>`, and `<td>` tags
+- Execute a conversion from lists to a table
+
+### Example
+
 Lists are good for showing a series of items in a single column. But some information is better represented on a grid.
 
 For example, it would be difficult to express this information in a simple list:
@@ -59,7 +69,7 @@ Here's the HTML that produces the above example. Notice how the header cells are
 </table>
 ```
 
-## Assignment
+### Exercise
 
 Convert the unordered list into a table with the following specifications:
 
