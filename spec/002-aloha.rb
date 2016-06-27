@@ -4,20 +4,20 @@ describe "index.html" do
   it "has four p tags" do
     expect(index).to have_tag('p', count: 4)
   end
-  
-  it "says Hello World" do
+
+  it "says English: Hello World" do
     expect(index).to have_tag('p', text: 'English: Hello World')
   end
 
-  it "says Aloha Houna" do
+  it "says Hawaiian: Aloha Houna" do
     expect(index).to have_tag('p', text: 'Hawaiian: Aloha Houna')
   end
 
-  it "says Moien Welt" do
+  it "says Luxembourgish: Moien Welt" do
     expect(index).to have_tag('p', text: 'Luxembourgish: Moien Welt')
   end
 
-  it "says Salamu Dunia" do
+  it "says Swahili: Salamu Dunia" do
     expect(index).to have_tag('p', text: 'Swahili: Salamu Dunia')
   end
 end
