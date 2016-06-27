@@ -5,7 +5,7 @@ describe "index.html" do
     expect(index).to have_tag('h1')
   end
   
-  it "says Hello World Translations" do
+  it "has 'Hello World Translations' within an h1 tag" do
     expect(index).to have_tag('h1', text: 'Hello World Translations')
   end
 end
