@@ -1,16 +1,16 @@
 ### Objectives
 
-After this exercise, you should be able to:
+After this exercise, you can:
 
 - Identify the `<html>` and `<body>` tags
-- Describe which of these tags comes first
-- Describe why these tags are important
+- Describe the order of these tags
+- Describe the importantance of each tag
 
 ### Example
 
-The text we've added is the main content of the HTML document. This main content is called the document's *body*, and it should be surrounded by `<body>` tags.
+The text you've written thus far belongs to the visual content of the HTML document. This is called the document's **body**, and we surrounded it with `<body>` tags.
 
-The document's body is one part of an HTML document. (We'll get to the other part — the document's *head* — later.)  The `<body>` tags should be surrounded by `<html>` tags like this:
+The document's body is one part of an HTML document (we'll get to the other part — the document's **head** — later.) And we surround the `<body>` tags with `<html>` tags, like so:
 
 ```html
 <html>
@@ -20,8 +20,10 @@ The document's body is one part of an HTML document. (We'll get to the other par
 </html>
 ```
 
-It may seem a bit verbose, but these strict formatting rules help web browsers display your document properly. Without them, browsers might display your content incorrectly, more slowly, or not at all.
+`<html>` indicates the beginning, and `</html>` indicates the end of your HTML document.
+
+It may seem overly verbose, but these formatting rules help web browsers display your documents properly. Without them, browsers may display your content incorrectly, may take longer to display it, or may not display it at all.
 
 ### Exercise
 
-- Correctly place `<html>` and `<body>` tags around our document.
+- Place `<html>` and `<body>` tags around your content.
