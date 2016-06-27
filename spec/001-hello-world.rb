@@ -4,8 +4,8 @@ describe "index.html" do
   it "has a p tag" do
     expect(index).to have_tag('p')
   end
-  
-  it "says Hello World" do
+
+  it "has 'Hello World' within a p tag" do
     expect(index).to have_tag('p', text: 'Hello World')
   end
 end
