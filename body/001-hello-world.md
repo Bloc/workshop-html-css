@@ -1,6 +1,8 @@
+Welcome to Bloc's HTML & CSS Workshop course! During this course, you will learn the syntax that supports every website on the planet. Without HTML and CSS, the internet would be a different, and probably crappier place!
+
 ### Objectives
 
-After this exercise, you should be able to:
+After this exercise, you can:
 
 - Define HTML
 - Recognize an HTML tag
@@ -8,9 +10,9 @@ After this exercise, you should be able to:
 
 ### Example
 
-HTML, or Hypertext Markup Language, is a way to describe the meaning and hierarchy of text so it can be formatted and displayed.
+HTML, or Hypertext Markup Language, describes a hierarchy of visual elements that a browser can display.
 
-HTML usually looks like some human-readable text surrounded by "tags". Tags are denoted by angle brackets, like so:
+HTML usually looks like human-readable text surrounded by **tags**. We create tags using angle brackets, like so:
 
 ```html
 <example-tag>
@@ -18,10 +20,10 @@ HTML usually looks like some human-readable text surrounded by "tags". Tags are 
 </example-tag>
 ```
 
-The closing tag inserts `/` after the left angle bracket.
+Most tags require both an **opening** (`<example-tag>`) and a **closing** tag (`</example-tag>`). A forward-slash (`/`) proceeds the first angle bracket of all closing tags.
 
-The most common tag is `<p>`, which is shorthand for *paragraph*.
+The most common tag is `<p>`, short for *paragraph*.
 
 ### Exercise
 
-Surround the text `Hello World` with the opening and closing paragraph tags.
+- Surround the `Hello World` text with opening and closing paragraph tags.
