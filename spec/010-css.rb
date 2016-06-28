@@ -9,7 +9,7 @@ describe "index.html" do
     p
   end
   
-  it "should have some CSS in a style tag" do
+  it "should have CSS in a style tag" do
     expect(css).to_not be_empty
   end
 
@@ -52,7 +52,7 @@ describe "index.html" do
   context "styling the table header" do
     let(:th_rules) { parser.find_by_selector('th').join(' ').downcase }
 
-    it "should have a 5px solid red border" do
+    it "should have a 2px solid red border" do
       expect(th_rules).to include('border', '2px', 'solid', 'white')
     end
   end
