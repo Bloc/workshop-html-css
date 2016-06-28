@@ -7,13 +7,25 @@ describe "index.html" do
     p.load_file! "main.css"
     p
   end
-  
+
   it "does not have a style tag" do
     expect(index).to_not have_tag('style')
   end
-  
+
   it "has a link tag" do
     expect(index).to have_tag('link')
+  end
+
+  it "has a link tag with a 'rel' attribute" do
+    expect(index).to have_tag('link', with: { rel: "stylesheet" })
+  end
+  
+  it "has a link tag with a 'type' attribute" do
+    expect(index).to have_tag('link', with: { type: "text/css" })
+  end
+  
+  it "has a link tag with a 'href' attribute" do
+    expect(index).to have_tag('link', with: { href: "main.css" })
   end
 
   context "styling the body" do
@@ -39,7 +51,7 @@ describe "index.html" do
       expect(a_rules).to include('color', 'hotpink')
     end
   end
-  
+
   context "styling the image" do
     let(:img_rules) { parser.find_by_selector('img').join(' ').downcase }
 
@@ -51,7 +63,7 @@ describe "index.html" do
       expect(img_rules).to include('margin-left', 'margin-right', 'auto')
     end
   end
-  
+
   context "styling the table header" do
     let(:th_rules) { parser.find_by_selector('th').join(' ').downcase }
 
