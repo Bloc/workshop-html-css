@@ -1,6 +1,6 @@
 ### Objectives
 
-After this exercise, you should be able to:
+After this exercise, you can:
 
 - Explain the difference between pixels and ems
 - Use font and text attributes to style and space text
@@ -15,7 +15,7 @@ You've already seen a few ways to style text:
 - You can change its `font-family`, `font-size`, `font-weight`, and `font-variant`
 - You can change the spacing between letters with `letter-spacing`
 
-There are many more ways to style text — way too many to include in this exercise. Here are a few highlights.
+There are more ways to style text — way too many to include in this exercise. Here are a few highlights.
 
 ----
 
@@ -27,7 +27,11 @@ p {
 }
 ```
 
-1 em is the size of normal paragraph text. In the above example, the text would be rendered at 75% of the normal size.
+Here's an example:
+
+> <p>This text is about to get <span style="font-size: 0.75em">smaller</span></p>
+
+1 em is equal to your element's default text size. In the above example, we rendered the smaller text at 75% of the normal size.
 
 ----
 
@@ -39,6 +43,11 @@ p {
 }
 ```
 
+Here's an example:
+
+> <p style="text-indent: 4em">This text is indented, good sir and/or madam!</p>
+> <p>This text is not indented, I'm afraid.</p>
+
 ----
 
 The line spacing affects the spacing between lines:
@@ -48,6 +57,10 @@ p {
   line-height: 2em;
 }
 ```
+
+For example:
+
+> <p style="line-height: 2em">Lines can run long sometimes, so space them out to keep the reader's eyes from tiring out.</p>
 
 ----
 
@@ -59,15 +72,15 @@ p {
 }
 ```
 
+> <p style="text-shadow: 2px 2px 8px #C0C0F3">This is some shaaaaady text!</p>
+
 The first two numbers represent the horizontal and vertical size of the shadow. The second number represents the blur radius. The fourth value is the color.
 
 ## Exercise
 
 - Open `index.html`.
-- Add this text between `<p>` tags. Place it between the header and the table. Include this text:
-
-  > Voltaire, a French philosopher and historian who died shortly after the American revolutionary war, left us with this warning about translations: "Woe to the makers of literal translations, who by rendering every word weaken the meaning! It is indeed by so doing that we can say the letter kills and the spirit gives life." In spite of his warnings, we bring you four translations of the phrase "Hello World".
-  
+  - Add this text in a paragraph tag. Place it between the header and the table:
+    > Voltaire, a French philosopher and historian who died shortly after the American revolutionary war, left us with this warning about translations: "Woe to the makers of literal translations, who by rendering every word weaken the meaning! It is indeed by so doing that we can say the letter kills and the spirit gives life." In spite of his warnings, we bring you four translations of the phrase "Hello World".
 - Open `main.css`.
-- Apply the `font-size`, `text-indent`, and `line-height` attributes to the new text.
-- Add a text shadow to the header text.
+  - Apply the `font-size`, `text-indent`, and `line-height` attributes to the new text.
+  - Add a text shadow to the header text.
