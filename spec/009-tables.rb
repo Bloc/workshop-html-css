@@ -6,13 +6,13 @@ describe "index.html" do
       with_tag "tr", count: 5
     end
   end
-  
-  it "has a tr tag with 8 nested th tags" do
+
+  it "has a tr tag with 2 nested th tags" do
     expect(index).to have_tag("tr") do
       with_tag "th", count: 2
     end
   end
-  
+
   it "has 8 nested td tags within tr tags" do
     expect(index).to have_tag("tr") do
       with_tag "td", count: 8
@@ -23,7 +23,7 @@ describe "index.html" do
     expect(index).to have_tag("th", text: "Language")
     expect(index).to have_tag("th", text: "Translation")
   end
-  
+
   it "has td tags with the expected content" do
     expect(index).to have_tag("td", text: "English")
     expect(index).to have_tag("td", text: "Hello World")

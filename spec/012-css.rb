@@ -1,19 +1,16 @@
 require 'css_parser'
 
 describe "index.html" do
-  let(:index) { File.open("index.html", "rb").read }
+  let(:index) { Nokogiri::HTML(open("index.html")) }
+  let(:css) { index.css('style').text }
   let(:parser) do
     p = CssParser::Parser.new
-    p.load_file! "main.css"
+    p.load_string! css
     p
   end
   
-  it "does not have a style tag" do
-    expect(index).to_not have_tag('style')
-  end
-  
-  it "has a link tag" do
-    expect(index).to have_tag('link')
+  it "should have CSS in a style tag" do
+    expect(css).to_not be_empty
   end
 
   context "styling the body" do
@@ -55,7 +52,7 @@ describe "index.html" do
   context "styling the table header" do
     let(:th_rules) { parser.find_by_selector('th').join(' ').downcase }
 
-    it "should have a 5px solid red border" do
+    it "should have a 2px solid red border" do
       expect(th_rules).to include('border', '2px', 'solid', 'white')
     end
   end
