@@ -1,6 +1,6 @@
 ### Objectives
 
-After this exercise, you can:
+After this exercise, you should be able to:
 
 - Identify the HTML header tag (`<h1>`, `<h2>`, etc.)
 - Use an HTML header tag in a document

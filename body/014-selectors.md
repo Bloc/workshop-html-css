@@ -1,6 +1,6 @@
 ### Objectives
 
-After this exercise, you can:
+After this exercise, you should be able to:
 
 - Recognize a selector
 - Explain what a selector is

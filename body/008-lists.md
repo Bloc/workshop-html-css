@@ -1,6 +1,6 @@
 ### Objectives
 
-After this exercise, you can:
+After this exercise, you should be able to:
 
 - Define the difference between ordered and unordered lists
 - Implement the `<ol>`, `<ul>`, and `<li>` tags

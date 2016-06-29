@@ -1,6 +1,6 @@
 ### Objectives
 
-After this exercise, you can:
+After this exercise, you should be able to:
 
 - Explain the difference between pixels and ems
 - Use font and text attributes to style and space text

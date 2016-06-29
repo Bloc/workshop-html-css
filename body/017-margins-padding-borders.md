@@ -1,6 +1,6 @@
 ### Objectives
 
-After this exercise, you can:
+After this exercise, you should be able to:
 
 - Understand the difference between margins, padding, and borders
 - Explain the CSS Box Model

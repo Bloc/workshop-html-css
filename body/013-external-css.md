@@ -1,6 +1,6 @@
 ### Objectives
 
-After this exercise, you can:
+After this exercise, you should be able to:
 
 - Explain the difference between internal CSS and external CSS
 - Execute a conversion from internal CSS to external CSS

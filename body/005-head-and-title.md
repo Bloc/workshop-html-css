@@ -1,6 +1,6 @@
 ### Objectives
 
-After this exercise, you can:
+After this exercise, you should be able to:
 
 - Identify the `<head>` and `<title>` tags
 - Describe the order of these tags

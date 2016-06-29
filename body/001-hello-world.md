@@ -2,7 +2,7 @@ Welcome to Bloc's HTML & CSS Workshop course! During this course, you will learn
 
 ### Objectives
 
-After this exercise, you can:
+After this exercise, you should be able to:
 
 - Define HTML
 - Recognize an HTML tag

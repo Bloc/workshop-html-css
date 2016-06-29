@@ -1,6 +1,6 @@
 ### Objectives
 
-After this exercise, you can:
+After this exercise, you should be able to:
 
 - Define an HTML table
 - Understand and implement the `<table>`, `<th>`, `<tr>`, and `<td>` tags
