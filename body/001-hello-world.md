@@ -26,4 +26,11 @@ The most common tag is `<p>`, short for *paragraph*.
 
 ### Exercise
 
-- Surround the `Hello World` text with opening and closing paragraph tags.
+1. Create a new file in your code editor by clicking on the image shown below:
+
+    ![create-file](https://bloc-global-assets.s3.amazonaws.com/workshop/html-css-primer/create_file.png)
+2. Name the new file `index.html` and then click on the checkmark, as shown below:
+
+    ![name-file](https://bloc-global-assets.s3.amazonaws.com/workshop/html-css-primer/name_file.png)
+3. Type `Hello World`.
+4. Surround `Hello World` text with opening and closing paragraph tags.
