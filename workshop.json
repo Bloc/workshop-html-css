@@ -1,0 +1,3 @@
+{
+  "excludeItems": ["spec", "Dockerfile", "Gemfile", "Gemfile.lock", "README.md", "body"]
+}
