@@ -1,0 +1,3 @@
+{
+  "excludeItems": [".rspec", "Dockerfile", "Gemfile", "Gemfile.lock", "README.md"]
+}
