@@ -26,4 +26,5 @@ It may seem overly verbose, but these formatting rules help web browsers display
 
 ### Exercise
 
-- Place `<html>` and `<body>` tags around your content.
+1. Open `index.html`
+2. Place `<html>` and `<body>` tags around your content.

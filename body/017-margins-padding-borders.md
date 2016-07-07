@@ -39,25 +39,24 @@ A `<div>` is like a `<span>` that applies to a whole block of content.
 
 ## Exercise
 
-- Open `index.html`.
-  - Add `<div>` tags around the `<p>` tags with the introductory text.
-- Open `main.css`.
-  - Add a new CSS rule set with the `div` selector and the following attributes:
-    - Set `width` to `240px`.
-    - Set `padding` to `10px`.
-    - Set `border` to `5px solid white`.
-    - Set `margin` to `10px`.
-    - Set `margin-right` to `60px` to override the right margin.
-  - Notice that the new styling pushes the table far down. To resolve this, add a `div` class selector called `float-left`:
+1. Open `index.html`.
+- Add `<div>` tags around the `<p>` tags with the introductory text.
+2. Open `main.css`.
+3. Add a new CSS rule set with the `div` selector and the following attributes:
+- Set `width` to `240px`.
+- Set `padding` to `10px`.
+- Set `border` to `5px solid white`.
+- Set `margin` to `10px`.
+- Set `margin-right` to `60px` to override the right margin.
+- Notice that the new styling pushes the table far down. To resolve this, add a `div` class selector called `float-left`:
 
-  ```css
-  div.float-left {
-    float: left;
-  }
-  ```
+```css
+div.float-left {
+  float: left;
+}
+```
 
-  > This class selector applies only to `float-left` classes assigned to `<div>` tags.
+> This class selector applies only to `float-left` classes assigned to `<div>` tags.
 
-- Open `index.html`.
-  - Add `class="float-left"` to your `<div>`.
-
+4. Open `index.html`.
+- Add `class="float-left"` to your `<div>`.

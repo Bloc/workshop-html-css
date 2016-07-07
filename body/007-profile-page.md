@@ -12,15 +12,13 @@ In this exercise, you will use your brand new HTML knowledge to create your own 
 
 ### Exercise
 
-- Create a file named, "profile.html."
-  - Add the necessary HTML structure: `doctype`, `html`, `head`, `body`, etc.
-  - Choose a title for your profile.
-  - Use a combination of images, headings, and paragraphs to represent yourself. For example:
-    - Profile Image
-    - Heading (your name)
-      - Paragraph (about you!)
-    - Heading (My Secrets)
-      - **Several paragraphs divulging all of your deepest, darkest secrets**
-      - We won't read these (out loud)
-  - Submit whenever you're satisfied with your profile, no rush.
-  - And most importantly, **have fun**!
+1. Create and open a file named, "profile.html."
+2. Add the necessary HTML structure: `doctype`, `html`, `head`, `body`, etc.
+3. Choose a title for your profile.
+4. Use a combination of images, headings, and paragraphs to represent yourself. For example:
+- Profile Image
+- Heading (your name)
+- Paragraph (about you!)
+- Heading (My Secrets)
+- **Several paragraphs divulging all of your deepest, darkest secrets** - We won't read these (out loud)
+5. Submit whenever you're satisfied with your profile, no rush. And most importantly, **have fun**!

@@ -35,6 +35,7 @@ An image tag can look like this:
 
 ## Assignment
 
-- Add an image above the heading within the `<body>`; you may use any image you like!
-  - If you can't find an image, we've provided one at this relative address: `/images/hello-world.png`.
-  - Make sure to provide an `alt` attribute with your image.
+1. Open `index.html`
+2. Add an image above the heading within the `<body>`; you may use any image you like!
+- If you can't find an image, we've provided one at this relative address: `/images/hello-world.png`.
+- Make sure to provide an `alt` attribute with your image.

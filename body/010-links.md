@@ -25,6 +25,7 @@ The `href` attribute, like `src` in the `<img>` tag, contains a relative or abso
 
 ### Exercise
 
-- Link `Swahili` to `https://en.wikipedia.org/wiki/Swahili_language`.
-- After the table, add a paragraph that reads, "For additional translations, visit Bing Translator."
-  - Link `Bing Translator` to `https://www.bing.com/translator`.
+1. Open `index.html`
+2. Link `Swahili` to `https://en.wikipedia.org/wiki/Swahili_language`.
+3. After the table, add a paragraph that reads, "For additional translations, visit Bing Translator."
+4. Link `Bing Translator` to `https://www.bing.com/translator`.

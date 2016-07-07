@@ -54,4 +54,5 @@ These are typically rendered with bullet points, like so:
 
 ### Exercise
 
-- Convert the four paragraphs into one unordered list with four list items.
+1. Open `index.html`
+2. Convert the four paragraphs into one unordered list with four list items.
