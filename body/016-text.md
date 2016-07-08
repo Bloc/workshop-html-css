@@ -76,7 +76,7 @@ p {
 
 The first two numbers represent the horizontal and vertical size of the shadow. The second number represents the blur radius. The fourth value is the color.
 
-## Exercise
+### Exercise
 
 1. Open `index.html`.
 - Add this text in a paragraph tag. Place it between the header and the table:

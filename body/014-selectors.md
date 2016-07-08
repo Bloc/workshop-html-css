@@ -78,7 +78,7 @@ If you don't want to style the entire element, you can use the `<span>` tag to s
 
 Want more practice? Open [Try CSS Selectors](http://www.w3schools.com/cssref/trysel.asp) in a new tab to visualize how different selectors represent different areas of an HTML document.
 
-## Exercise
+### Exercise
 
 1. Open `main.css`.
 2. Add a `language` class selector (it should begin with a `.`).

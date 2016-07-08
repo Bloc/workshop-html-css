@@ -33,7 +33,7 @@ An image tag can look like this:
 - The user has an old browser that doesn't support images
 - The image cannot be found (broken link)
 
-## Assignment
+### Exercise
 
 1. Open `index.html`
 2. Add an image above the heading within the `<body>`; you may use any image you like!

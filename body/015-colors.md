@@ -42,7 +42,7 @@ The first two characters represent red, the next two green, and the final two bl
 
 > Notice that `ff` corresponds directly to `255`. That's because `f` (15) in the left spot is multiplied by the base, 16, and `f` in the right spot is multiplied by 1. Added together: 15 x 16 + 15 x 1 = 255.
 
-## Exercise
+### Exercise
 
 Let's use a more soothing color scheme.
 

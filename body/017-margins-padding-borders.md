@@ -37,7 +37,7 @@ div {
 
 A `<div>` is like a `<span>` that applies to a whole block of content.
 
-## Exercise
+### Exercise
 
 1. Open `index.html`.
 - Add `<div>` tags around the `<p>` tags with the introductory text.
