@@ -71,8 +71,9 @@ Here's the HTML that produces the above example. Notice how the header cells are
 
 ### Exercise
 
-- Convert your unordered list into a table with the following specifications:
-  - One header row with the titles `Language` and `Translation`
-  - Four data rows, with two columns:
-	  - Language (like `Luxembourgish`)
-	  - Translation (like `Moien Welt`)
+1. Open `index.html`
+2. Convert your unordered list into a table with the following specifications:
+- One header row with the titles `Language` and `Translation`
+- Four data rows, with two columns:
+  - Language (like `Luxembourgish`)
+  - Translation (like `Moien Welt`)

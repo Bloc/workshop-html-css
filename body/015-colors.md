@@ -48,9 +48,9 @@ Let's use a more soothing color scheme.
 
 Before you type the hex codes, try to guess how the color will appear.
 
-- Open `main.css`.
-  - Set the body text color and the table header borders to `#fff3e3`.
-  - While we're updating `body`, set `font-size` to `36px` and `font-weight` to `lighter`.
-  - Set the link color to `#ffb985`.
-  - Set the `h1` color to `#ae7182`.
-  - Set the language background color and the table border color to `#262b53`.
+1. Open `main.css`.
+2. Set the body text color and the table header borders to `#fff3e3`.
+3. While we're updating `body`, set `font-size` to `36px` and `font-weight` to `lighter`.
+4. Set the link color to `#ffb985`.
+5. Set the `h1` color to `#ae7182`.
+6. Set the language background color and the table border color to `#262b53`.

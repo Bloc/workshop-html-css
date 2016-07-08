@@ -41,6 +41,7 @@ Unlike other tags we've worked with, `DOCTYPE` isn't an HTML tag. It's a special
 
 ### Exercise
 
-- Add `<head>` tags to your document.
-- Add a title, make it anything you like.
-- Add the `DOCTYPE` instruction.
+1. Open `index.html`
+2. Add `<head>` tags to your document.
+3. Add a title, make it anything you like.
+4. Add the `DOCTYPE` instruction.

@@ -80,14 +80,14 @@ Want more practice? Open [Try CSS Selectors](http://www.w3schools.com/cssref/try
 
 ## Exercise
 
-- Open `main.css`.
-  - Add a `language` class selector (it should begin with a `.`).
-    - Set its `background` to `purple`.
-    - Set its `font-weight` to `medium`.
-  - Add an `aloha` ID selector (it should begin with a `#`).
-    - Set its `letter-spacing` to `8px`.
-    - Set its `font-variant` to `small-caps`.
-    - Set its `background` to `green`.
-- Open `index.html`.
-  - Use the `<span>` tag to apply the `language` class to each of the four languages (like `English` and `Hawaiian`).
-  - Add the `aloha` `id` attribute to the `<td>` tag surrounding `Aloha Houna`.
+1. Open `main.css`.
+2. Add a `language` class selector (it should begin with a `.`).
+- Set its `background` to `purple`.
+- Set its `font-weight` to `medium`.
+3. Add an `aloha` ID selector (it should begin with a `#`).
+- Set its `letter-spacing` to `8px`.
+- Set its `font-variant` to `small-caps`.
+- Set its `background` to `green`.
+4. Open `index.html`.
+- Use the `<span>` tag to apply the `language` class to each of the four languages (like `English` and `Hawaiian`).
+- Add the `aloha` `id` attribute to the `<td>` tag surrounding `Aloha Houna`.
