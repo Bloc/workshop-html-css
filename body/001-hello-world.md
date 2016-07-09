@@ -1,5 +1,3 @@
-Welcome to Bloc's HTML & CSS Workshop course! During this course, you will learn the syntax that supports every website on the planet. Without HTML and CSS, the internet would be a different, and probably crappier place!
-
 ### Objectives
 
 After this exercise, you should be able to:
