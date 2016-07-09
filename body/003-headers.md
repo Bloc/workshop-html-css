@@ -18,7 +18,7 @@ When writing headings, instead of using `<p>` (and `</p>`), you use `<h1>`, `<h2
 
 Your pages should have at most a single `<h1>` tag, but use other tags as many times as you like. For example, on a newspaper, "The New York Times" is in large letters on the front page. This is analogous to the `<h1>` tag.
 
-But not that it's not a hard and fast rule, but it keeps the importance of each heading readily distinguishable.
+It's not a hard and fast rule, but it keeps the importance of each heading readily distinguishable.
 
 ### Exercise
 
