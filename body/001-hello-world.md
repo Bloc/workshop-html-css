@@ -27,6 +27,7 @@ The most common tag is `<p>`, short for *paragraph*.
 1. Create a new file by clicking on the icon to the right of the `html-css/` directory in your code editor.
 2. Name the new file `index.html` and then click on the checkmark to save the file.
 3. Type `Hello World`.
-4. Surround `Hello World` text with opening and closing paragraph tags.
+4. Surround the `Hello World` text with opening and closing paragraph tags.
 5. Click the **Run** button.
-6. If your tests pass, click the blue "Preview My Results" button to see your application.
+6. Click the Save button to save your changes.
+7. If your tests pass, click the blue "Preview My Results" button to see your application.
