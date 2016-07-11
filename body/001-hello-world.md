@@ -28,6 +28,6 @@ The most common tag is `<p>`, short for *paragraph*.
 2. Name the new file `index.html` and then click on the checkmark to save the file.
 3. Type `Hello World`.
 4. Surround the `Hello World` text with opening and closing paragraph tags.
-5. Click the **Run** button.
-6. Click the Save button to save your changes.
-7. If your tests pass, click the blue "Preview My Results" button to see your application.
+5. Click the **Save** button to save your changes.
+6. Click the **Run** button.
+7. If your tests pass, click the blue "Preview" tab to see your application.
