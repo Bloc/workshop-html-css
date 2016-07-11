@@ -2,8 +2,8 @@ describe "index.html" do
   let(:index) { File.open("index.html", "rb").read }
 
   it "begins and ends with an html tag" do
-    expect(index.downcase).to start_with("<html>")
-    expect(index.downcase).to end_with("</html>")
+    expect(index.downcase.strip).to start_with("<html>")
+    expect(index.downcase.strip).to end_with("</html>")
   end
 
   it "has a body tag" do
