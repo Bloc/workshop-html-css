@@ -2,7 +2,7 @@
 
 After this exercise, you should be able to:
 
-- Use lists, tabls, and links to make an even better profile
+- Use lists, tables, and links to make an even better profile
 
 ### Example
 
