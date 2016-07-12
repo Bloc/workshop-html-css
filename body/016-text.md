@@ -81,7 +81,7 @@ The first two numbers represent the horizontal and vertical size of the shadow. 
 1. Open `index.html`.
 - Add this text in a paragraph tag. Place it between the header and the table:
 
-> Voltaire, a French philosopher and historian who died shortly after the American revolutionary war, left us with this warning about translations: "Woe to the makers of literal translations, who by rendering every word weaken the meaning! It is indeed by so doing that we can say the letter kills and the spirit gives life." In spite of his warnings, we bring you four translations of the phrase "Hello World".
+  > Voltaire, a French philosopher and historian who died shortly after the American revolutionary war, left us with this warning about translations: "Woe to the makers of literal translations, who by rendering every word weaken the meaning! It is indeed by so doing that we can say the letter kills and the spirit gives life." In spite of his warnings, we bring you four translations of the phrase "Hello World".
 
 2. Open `main.css`.
 3. Apply the `font-size`, `text-indent`, and `line-height` attributes to the new text.
