@@ -27,7 +27,9 @@ We can name CSS files anything, but review these [CSS naming guidelines](http://
 
 In this exercise, move the CSS to an external file. Open `index.html`.
 
-1. Create a file named, `main.css`.
-2. Copy everything between the `<style>` tags to this new file.
-3. Delete the `<style>` tags.
-4. Add a `link` tag that connects your HTML file to your CSS file (`href="main.css"`).
+1. Create a file named `main.css`
+2. In `index.html`, copy everything between (but not including) the `<style>` tags
+3. Switch to `main.css`
+4. Paste the style information into `main.css`
+5. Return to `index.html`
+6. Replace the `<style>` tags (and everything between them) with a single link tag that connects your HTML file to your CSS file (`href="main.css"`)

@@ -83,7 +83,7 @@ Want more practice? Open [Try CSS Selectors](http://www.w3schools.com/cssref/try
 1. Open `main.css`.
 2. Add a `language` class selector (it should begin with a `.`).
 - Set its `background` to `purple`.
-- Set its `font-weight` to `medium`.
+- Set its `font-weight` to `bold`.
 3. Add an `aloha` ID selector (it should begin with a `#`).
 - Set its `letter-spacing` to `8px`.
 - Set its `font-variant` to `small-caps`.

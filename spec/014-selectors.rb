@@ -31,8 +31,8 @@ describe "index.html" do
   context "language class" do
     let(:language_rules) { parser.find_by_selector('.language').join(' ').downcase }
 
-    it "has a medium font weight" do
-      expect(language_rules).to include('font-weight', 'medium')
+    it "has a bold font weight" do
+      expect(language_rules).to include('font-weight', 'bold')
     end
 
     it "has a purple background" do
