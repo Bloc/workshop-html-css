@@ -16,7 +16,7 @@ describe "index.html" do
   end
 
   it "has a div tag with class float-left" do
-    expext(index).to have_tag("div", with: { class: "float-left" })
+    expect(index).to have_tag("div", with: { class: "float-left" })
   end
 
   context "div" do
