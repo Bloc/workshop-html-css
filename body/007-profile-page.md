@@ -10,6 +10,9 @@ Practically every website on the planet allows users to create a profile. Profil
 
 In this exercise, you will use your brand new HTML knowledge to create your own profile that reflects the best things about you!
 
+> Workshop doesn't currently support image upload. If you want to experiment with other images, try an image hosting service like [imgur](https://imgur.com/).
+
+
 ### Exercise
 
 1. Create and open a file named `profile.html`
