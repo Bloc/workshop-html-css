@@ -23,4 +23,4 @@ It's not a hard and fast rule, but it keeps the importance of each heading readi
 ### Exercise
 
 1. Open `index.html`
-2. Add an `<h1>` tag at the top of your document, it should read, "Hello World Translations."
+2. Add an `<h1>` tag at the top of your document with the text "Hello World Translations".
