@@ -74,7 +74,7 @@ p {
 
 > <p style="text-shadow: 2px 2px 8px #C0C0F3">This is some shaaaaady text!</p>
 
-The first two numbers represent the horizontal and vertical size of the shadow. The second number represents the blur radius. The fourth value is the color.
+The first two numbers represent the horizontal and vertical size of the shadow. The third number represents the blur radius. The fourth value is the color.
 
 ### Exercise
 
