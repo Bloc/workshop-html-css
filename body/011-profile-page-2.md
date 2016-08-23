@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 ### Example
 
-Remember that excellent profile you made? Let's use lists, tables, and links to make it more excelent-er!
+Remember that excellent profile you made? Let's use lists, tables, and links to make it more excellent-er!
 
 ### Exercise
 
