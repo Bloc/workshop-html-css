@@ -7,7 +7,7 @@ describe "index.html" do
   end
 
   it "suggests Bing Translator" do
-    expect(index).to have_tag('p', text: "For additional translations, visit Bing Translator.")
+    expect(index).to have_tag('p', text: "For additional translations, visit Bing Translator")
   end
 
   it "links to Bing Translator" do
