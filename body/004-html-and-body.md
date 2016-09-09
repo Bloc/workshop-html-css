@@ -4,7 +4,7 @@ After this exercise, you should be able to:
 
 - Identify the `<html>` and `<body>` tags
 - Describe the order of these tags
-- Describe the importantance of each tag
+- Describe the importance of each tag
 
 ### Example
 
