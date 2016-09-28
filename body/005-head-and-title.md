@@ -28,7 +28,7 @@ Here's a look at a sample head section with a title:
 </html>
 ```
 
-We must have these elements in place to comply with HTML5 standards. And to delcare our page an HTML5 document, we insert a `DOCTYPE` tag at the top, like so:
+We must have these elements in place to comply with HTML5 standards. And to declare our page an HTML5 document, we insert a `DOCTYPE` tag at the top, like so:
 
 ```html
 <!DOCTYPE html>
